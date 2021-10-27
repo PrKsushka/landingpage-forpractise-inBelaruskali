@@ -1,0 +1,23 @@
+.fourthWindow {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.fourthWindow .right {
+  width: 420px;
+  height: 430px;
+  background-size: cover;
+  padding-right: 160px;
+}
+.fourthWindow .left {
+  padding-top: 80px;
+}
+.fourthWindow .saltCristals {
+  position: absolute;
+  width: 248.24px;
+  height: 378.86px;
+  right: -114px;
+}

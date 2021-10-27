@@ -1,0 +1,53 @@
+.builder(@disp,@w){
+  display: @disp;
+  width:@w;
+}
+.fonts(@fontFam, @fontSiz){
+  font-family: @fontFam;
+  font-size: @fontSiz;
+}
+@w:white;
+footer{
+  height: 250px;
+  background: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 120px 60px 120px;
+  box-sizing: border-box;
+  .builder(flex,100%);
+  .menu{
+    margin:0 0 60px 0;
+    display: flex;
+    justify-content: center;
+    a{
+      text-decoration: none;
+      color:@w;
+      .fonts("Roboto", 18px);
+    }
+    ul{
+      list-style: none;
+      display: flex;
+      margin:38px 120px 0 0;
+      li{
+        margin-right: 20px;
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .social{
+//     background: url("../images/social.png") no-repeat;
+    width:161px;
+    height:54px;
+  }
+  .who{
+    justify-content: flex-end;
+    margin-right: 120px;
+    .builder(flex,100%);
+    b{
+      .fonts('Roboto',18px);
+      color:@w;
+    }
+  }
+}

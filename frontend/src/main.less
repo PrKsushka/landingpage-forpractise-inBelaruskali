@@ -1,0 +1,49 @@
+@dB: #002B43;
+@w:white;
+.builder(@disp,@w){
+  display: @disp;
+  width:@w;
+}
+.fonts(@fontFam, @fontSiz){
+  font-family: @fontFam;
+  font-size: @fontSiz;
+}
+@font-face {
+  font-family: 'NotoSans';
+  src: url("./fonts/NotoSansJP-Bold.otf");
+}
+@font-face {
+  font-family: 'QuickSans';
+  src: url("./fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("./fonts/Roboto-Light.ttf");
+}
+body{
+  margin: 0 auto;
+  background: @dB;
+  overflow-x: hidden;
+}
+.left{
+  width: 417px;
+  margin-right: 172px;
+  h3{
+    .fonts("Roboto", 25px);
+    color:@w;
+  }
+  p{
+    .fonts("Roboto", 18px);
+    color:@w;
+  }
+}
+.crystalsSalt{
+  //background: url("../images/salt.png") no-repeat;
+  width:468px;
+  height: 469px;
+  position: absolute;
+  background-size: cover;
+  right: -196px;
+  bottom: -203px;
+  z-index: 5;
+}

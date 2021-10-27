@@ -1,0 +1,28 @@
+.builder(@disp,@w){
+  display: @disp;
+  width:@w;
+}
+.fourthWindow{
+  position: relative;
+  .builder(flex,100%);
+  justify-content: space-around;
+  margin-top:120px;
+  margin-bottom: 120px;
+  .right{
+    //background: url("../images/cristal.png") no-repeat;
+    width: 420px;
+    height: 430px;
+    background-size: cover;
+    padding-right:160px;
+  }
+  .left{
+    padding-top:80px;
+  }
+  .saltCristals{
+    position: absolute;
+    //background: url("../images/cristal_salt.png") no-repeat;
+    width: 248.24px;
+    height: 378.86px;
+    right: -114px;
+  }
+}

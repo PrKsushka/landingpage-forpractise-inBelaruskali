@@ -1,0 +1,70 @@
+@w:white;
+.builder(@disp,@w){
+  display: @disp;
+  width:@w;
+}
+.fonts(@fontFam, @fontSiz){
+  font-family: @fontFam;
+  font-size: @fontSiz;
+}
+.eightWindow{
+  .builder(flex,100%);
+  flex-wrap: wrap;
+  //background: url("../images/gori.png") no-repeat;
+  min-height:720px;
+  background-size: cover;
+  padding-bottom:120px;
+  box-sizing:border-box;
+
+  h3{
+    width: 100%;
+    color:@w;
+    .fonts('Roboto',25px);
+    display: flex;
+    justify-content: center;
+
+  }
+  .form{
+    .builder(flex,100%);
+    justify-content: center;
+    form{
+      width: 960px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      .wrapper{
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        input{
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 8px;
+          width: 690px;
+          height: 60px;
+
+        }
+      }
+      .k{
+        width: 690px;
+        height: 60px;
+        background: #83959F;
+        box-shadow: 6px 7px 4px rgba(0, 0, 0, 0.34);
+        border-radius: 8px;
+        .fonts('Roboto',18px);
+        color:@w;
+      }
+      .area{
+        width: 690px;
+        height: 102px;
+        display: flex;
+        margin: 0 auto;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        justify-content: center;
+      }
+    }
+  }
+
+}

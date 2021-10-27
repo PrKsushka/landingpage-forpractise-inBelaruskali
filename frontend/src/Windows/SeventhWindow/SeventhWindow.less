@@ -1,0 +1,38 @@
+.builder(@disp,@w){
+  display: @disp;
+  width:@w;
+}
+.fonts(@fontFam, @fontSiz){
+  font-family: @fontFam;
+  font-size: @fontSiz;
+}
+@w:white;
+.seventhWindow{
+  .builder(flex,100%);
+  margin:120px 0 120px 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .sevenDescr{
+    justify-content: center;
+    display: flex;
+    width:100%;
+    margin-bottom:80px;
+    .fonts('Roboto',25px);
+    color:@w;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .contactCard{
+    width: 415px;
+    height: 474px;
+    background: @w;
+    border-radius: 8px;
+    padding: 79px 9px 161px 45px;
+    box-sizing:border-box;
+    h3{
+      .fonts('Roboto',25px);
+    }
+    p{
+      .fonts('Roboto',18px);
+    }
+  }
+}

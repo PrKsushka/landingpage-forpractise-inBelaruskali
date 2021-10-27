@@ -1,0 +1,98 @@
+@dB: #002B43;
+@w:white;
+
+.builder(@disp,@w){
+  display: @disp;
+  width:@w;
+}
+.fonts(@fontFam, @fontSiz){
+  font-family: @fontFam;
+  font-size: @fontSiz;
+}
+.left{
+  width: 417px;
+  margin-right: 172px;
+  h3{
+    .fonts("Roboto", 25px);
+    color:@w;
+  }
+  p{
+    .fonts("Roboto", 18px);
+    color:@w;
+  }
+}
+.firstWindow{
+  .builder(flex,100%);
+  flex-direction: column;
+  .menu{
+    margin:30px 60px 60px 0;
+    display: flex;
+    justify-content: flex-end;
+    a{
+      text-decoration: none;
+      color:@w;
+      .fonts("Roboto", 18px);
+    }
+    .elements{
+      display: flex;
+      margin-right:60px;
+      .logo{
+        margin-right: 20px;
+      }
+      .description{
+        text-transform: uppercase;
+        padding-top: 23px;
+        text-align:center;
+        color:@w;
+        margin-right: 120px;
+        .fonts("Roboto", 18px);
+        .belkali{
+          margin:0;
+          padding-bottom: 20px;
+        }
+        p{
+          margin:0;
+        }
+      }
+    }
+    ul{
+      list-style: none;
+      display: flex;
+      margin:38px 120px 0 0;
+      li{
+        margin-right: 20px;
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .firstContent{
+    display: flex;
+    justify-content: space-around;
+    .salt{
+      //background: url("../images/pachkaSoli.png") no-repeat;
+      height: 552px;
+      width: 537px;
+      background-size: contain;
+    }
+    .saltDescription{
+      margin:60px 120px 0 0;
+
+      h2{
+        .fonts("NotoSans",69px);
+        color: @w;
+        text-transform: uppercase;
+        margin:0;
+        padding-top: 100px;
+      }
+      p{
+        width: 466px;
+        text-align: center;
+        margin: 0 auto;
+        .fonts("Roboto",18px);
+        color: @w;
+      }
+    }
+  }
+}

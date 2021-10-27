@@ -1,0 +1,40 @@
+.thirdWindow {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 240px;
+  flex-wrap: wrap;
+}
+.thirdWindow h3 {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding-bottom: 60px;
+  font-weight: bold;
+}
+.thirdWindow .saltShaker {
+  background-size: cover;
+  transform: rotate(26.79deg);
+  width: 607.01px;
+  height: 412.59px;
+  position: absolute;
+  left: -80px;
+  top: -238px;
+}
+.thirdWindow .cardWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.thirdWindow .crystalsSalt.secondCrystalsSalt {
+  left: -174px;
+  z-index: -100;
+  bottom: -306px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: rotate(90.45deg);
+}

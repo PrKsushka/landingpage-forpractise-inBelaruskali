@@ -1,0 +1,47 @@
+footer {
+  height: 250px;
+  background: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 120px 60px 120px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+footer .menu {
+  margin: 0 0 60px 0;
+  display: flex;
+  justify-content: center;
+}
+footer .menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+footer .menu ul {
+  list-style: none;
+  display: flex;
+  margin: 38px 120px 0 0;
+}
+footer .menu ul li {
+  margin-right: 20px;
+}
+footer .menu ul li a {
+  text-decoration: none;
+}
+footer .social {
+  width: 161px;
+  height: 54px;
+}
+footer .who {
+  justify-content: flex-end;
+  margin-right: 120px;
+  display: flex;
+  width: 100%;
+}
+footer .who b {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}

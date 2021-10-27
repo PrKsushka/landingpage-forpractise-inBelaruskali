@@ -1,0 +1,92 @@
+.left {
+  width: 417px;
+  margin-right: 172px;
+}
+.left h3 {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #ffffff;
+}
+.left p {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #ffffff;
+}
+.firstWindow {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.firstWindow .menu {
+  margin: 30px 60px 60px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.firstWindow .menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.firstWindow .menu .elements {
+  display: flex;
+  margin-right: 60px;
+}
+.firstWindow .menu .elements .logo {
+  margin-right: 20px;
+}
+.firstWindow .menu .elements .description {
+  text-transform: uppercase;
+  padding-top: 23px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 120px;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.firstWindow .menu .elements .description .belkali {
+  margin: 0;
+  padding-bottom: 20px;
+}
+.firstWindow .menu .elements .description p {
+  margin: 0;
+}
+.firstWindow .menu ul {
+  list-style: none;
+  display: flex;
+  margin: 38px 120px 0 0;
+}
+.firstWindow .menu ul li {
+  margin-right: 20px;
+}
+.firstWindow .menu ul li a {
+  text-decoration: none;
+}
+.firstWindow .firstContent {
+  display: flex;
+  justify-content: space-around;
+}
+.firstWindow .firstContent .salt {
+  height: 552px;
+  width: 537px;
+  background-size: contain;
+}
+.firstWindow .firstContent .saltDescription {
+  margin: 60px 120px 0 0;
+}
+.firstWindow .firstContent .saltDescription h2 {
+  font-family: "NotoSans";
+  font-size: 69px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 100px;
+}
+.firstWindow .firstContent .saltDescription p {
+  width: 466px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #ffffff;
+}

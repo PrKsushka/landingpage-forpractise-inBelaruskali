@@ -1,0 +1,32 @@
+.sixWindow {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  position: relative;
+  margin: 120px 0 120px 120px;
+}
+.sixWindow .hand {
+  width: 603px;
+  height: 616px;
+  position: absolute;
+  right: 109px;
+}
+.sixWindow .button {
+  margin-top: 60px;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 226px;
+  height: 57px;
+  left: 122px;
+  background: #83959F;
+  box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.34);
+  border-radius: 8px;
+}
+.sixWindow .left {
+  padding-top: 60px;
+}

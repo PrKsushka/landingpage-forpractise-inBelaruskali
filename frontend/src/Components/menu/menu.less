@@ -1,0 +1,26 @@
+@w:white;
+.fonts(@fontFam, @fontSiz){
+  font-family: @fontFam;
+  font-size: @fontSiz;
+}
+
+  a{
+    text-decoration: none;
+    color:@w;
+    .fonts("Roboto", 18px);
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    margin:38px 120px 0 0;
+    li{
+      margin-right: 20px;
+      a{
+        text-decoration: none;
+        &:hover{
+          font-weight: bold;
+        }
+      }
+    }
+
+  }

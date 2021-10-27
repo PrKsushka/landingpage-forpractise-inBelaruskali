@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'NotoSans';
+  src: url("fonts/NotoSansJP-Bold.otf");
+}
+@font-face {
+  font-family: 'QuickSans';
+  src: url("fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Light.ttf");
+}
+body {
+  margin: 0 auto;
+  background: #002b43;
+  overflow-x: hidden;
+}
+.left {
+  width: 417px;
+  margin-right: 172px;
+}
+.left h3 {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #ffffff;
+}
+.left p {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #ffffff;
+}
+.crystalsSalt {
+  width: 468px;
+  height: 469px;
+  position: absolute;
+  background-size: cover;
+  right: -196px;
+  bottom: -203px;
+  z-index: 5;
+}

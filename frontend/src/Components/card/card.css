@@ -1,0 +1,28 @@
+.card {
+  width: 307px;
+  height: 404px;
+  background: #ffffff;
+  box-shadow: 3px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: center;
+}
+.card .title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto";
+  font-size: 18px;
+  color: black;
+}
+.card img {
+  width: 134px;
+  height: 120px;
+}
+.card .cardDescription {
+  margin: 20px 20px;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: black;
+}

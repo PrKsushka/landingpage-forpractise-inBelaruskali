@@ -1,0 +1,39 @@
+.builder(@disp,@w){
+  display: @disp;
+  width:@w;
+}
+.fonts(@fontFam, @fontSiz){
+  font-family: @fontFam;
+  font-size: @fontSiz;
+}
+.sixWindow{
+  .builder(flex,100%);
+  justify-content: flex-start;
+  position:relative;
+  margin: 120px 0 120px 120px;
+  .hand{
+    //background:url("../images/hand.png") no-repeat;
+    width: 603px;
+    height: 616px;
+    position:absolute;
+    right: 109px;
+  }
+  .button{
+    margin-top: 60px;
+    text-decoration: none;
+    .fonts('Roboto',25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 226px;
+    height: 57px;
+    left: 122px;
+    background: #83959F;
+    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.34);
+    border-radius: 8px;
+  }
+  .left{
+    padding-top:60px;
+  }
+}
